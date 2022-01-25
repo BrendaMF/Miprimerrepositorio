@@ -1,7 +1,14 @@
                           COMANDOS BASICOS DE GIT 
+<<<<<<< HEAD
 Pasos a seguir 1.- Configurar las variables Locales: 
 git config --global user.email 
 git config --global user.name 
+=======
+Pasos a seguir 
+1.- Configurar las variables Locales:
+git config --global 
+git config --global
+>>>>>>> master
 git config --list -> Ayuda a ver los  email, user que has configurado.
 
 Comando Principales para iniciar:

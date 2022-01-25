@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 9:77|
+=======
+ estes o no estes
+>>>>>>> master
