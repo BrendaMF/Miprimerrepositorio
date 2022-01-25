@@ -1,8 +1,9 @@
                           COMANDOS BASICOS DE GIT 
-Pasos a seguir 
-1.- Configurar las variables Locales:
-git config --global user.email "Brendamir29@gmail.com"
-git config --global user.name "BrendaMF"
+Pasos a seguir 1.- Configurar las variables Locales: git config --global user.email "Brendamir29@gmail.com"JAJAJAJAJJAJAJAJAJAJAJA
+git config --global user.name "BrendaMFJAJAJAJAJJAJAJAJAJAJAJA
+
+
+HHILLLALALA
 git config --list -> Ayuda a ver los  email, user que has configurado.
 
 Comando Principales para iniciar:
@@ -24,4 +25,9 @@ git checkout BrendaRama --> Posicionarnos en la rama creada
 git branch --> ver cuantas ramas existen
 git push -u origin BrendaRama --> los Cambios se reflejaran en mi RAMA
 git branch -a --> ver todas nuestras ramas remotas
+wq
+:wq
 
+
+:wq
+m
