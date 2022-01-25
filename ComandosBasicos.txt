@@ -1,9 +1,7 @@
                           COMANDOS BASICOS DE GIT 
-Pasos a seguir 1.- Configurar las variables Locales: git config --global user.email "Brendamir29@gmail.com"JAJAJAJAJJAJAJAJAJAJAJA
-git config --global user.name "BrendaMFJAJAJAJAJJAJAJAJAJAJAJA
-
-
-HHILLLALALA
+Pasos a seguir 1.- Configurar las variables Locales: 
+git config --global user.email 
+git config --global user.name 
 git config --list -> Ayuda a ver los  email, user que has configurado.
 
 Comando Principales para iniciar:
@@ -23,11 +21,22 @@ git pull origin + la rama donde queremos bajar los cambios master ; Bajar siempr
 git branch BrendaRama --> Comando para crear Ramas
 git checkout BrendaRama --> Posicionarnos en la rama creada
 git branch --> ver cuantas ramas existen
-git push -u origin BrendaRama --> los Cambios se reflejaran en mi RAMA
+git push origin BrendaRama --> los Cambios se reflejaran en mi RAMA
 git branch -a --> ver todas nuestras ramas remotas
-wq
-:wq
+git branch --merged --> las ramas que se han mergeado
+git push origin --delete (nombre de la rama) BrendaRama --> para eliminar la rama del repsotorio GithuB que ya no se ocupa
+git branch -d (nombre de la rama) BrendaRama --> Para eliminar la rama de manera Local
+vim nombre del archivo : podemos editar el archivo desde la consola de git , SI ESTA EN MODO INSERT SE QUITA CON LA TECLA ESC y ponemos el comando :wq y enter guardara los cambios y pondra de nuevo la consola git
+______________________________________________________________________________________________________________________________________________________________________________________________
+Pasar mis archivos a la rama oficial es este caso seria main
 
+1.- git checkout main --> Nos posicionamos a la rama principal osea main.
+2.- pull origin main ---> Hacemos un pull para que tengamos los datos actualizados.
+3.- git merge BrendaRama --> Pasamos los datos que tenemos de la RAMA (BrendaRama)
+A LA RAMA PRINCIPAL MAIN (osea todos los datos que teniamos en la rama Brenda son pasados a la rama principal
+este movimiento solo lo podia hacer el jefe de equipo)
+4.- git push -u origin main --> subimos los cambios para que se vean reflejados en el repositorio
+______________________________________________________________________________________________________________________________________________________________________________________________
 
-:wq
-m
+PASOS iMPORTANTES PULL SIRVE PARA ACTUALIZAR LOS DATOS DE LA RAMA Y NO ESTAR TRABAJANDO CON DATOS DESACTUALIZADOS!! 
+PULL SIRVE PARA TENER LA ULTIMA VERSION DEL REPOSITORIO 
