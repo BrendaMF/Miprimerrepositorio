@@ -1,0 +1,28 @@
+                          COMANDOS BASICOS DE GIT 
+
+
+1.- Configurar las variables Locales:
+git config --global user.email "Brendamir29@gmail.com"
+git config --global user.name "BrendaMF"
+git config --list -> Ayuda a ver los  email, user que has configurado.
+
+Comando Principales para iniciar:
+git init --> Inicia el repositorio 
+ls -alh --> para verificar si se crearon los archivos con el comando git init
+touch archivonuevo.txt --> touch +  el name del archivo sirve para crear nuevos archivos.
+git status --> muestra los archivos que se agregan, modifican o eliminan
+git add . --> agregar todo cambios (Estatus tendra en rojo los archivos modif, y con el add se ponen en verde)
+git add + el nombre de archivo.txt --> Si solo queremos agregar 1 archivo especifico
+git rm --cached + El nombre del archivo --> Si agregué un archivo por equivocacion este comando ayuda a quitarlo de la lista add (git status ayudara a ver si se quitó)
+git commit -m "El mensaje de commit" --> Si ya estas seguro de que todos tus archivos estan subidos es hora de hacer el commit
+git log --> Ayuda aver que usuarios han hecho cambios.
+git clone + url de HTTPS O + url del SSH --> Si clonamos por ssh se tiene que hacer la configuracion / si clonamos con https tiene que ser publico el repositorio
+git diff --> Muestra que archivo es modificado
+git push -u origin + nombre donde se quiere subir main --> los Cambios se reflejaran en el repositorio
+git pull origin + la rama donde queremos bajar los cambios master ; Bajar siempre la ultima version , ANTES DE SUBIR CON PUSH preguntar si bajo los ultimos cambios o no con el PULL.
+git branch BrendaRama --> Comando para crear Ramas
+git checkout BrendaRama --> Posicionarnos en la rama creada
+git branch --> ver cuantas ramas existen
+git push -u origin BrendaRama --> los Cambios se reflejaran en mi RAMA
+git branch -a --> ver todas nuestras ramas remotas
+
